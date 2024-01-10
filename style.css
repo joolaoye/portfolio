@@ -4,49 +4,170 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: #0A0A1A;
+  background: #272327;
 }
 
-ul.nav {
-    list-style: none;
-    padding: 10px;
-    display: flex;
-    margin: 20px;
-    margin-left: -10px;
-}
-
-li.nav-item {
-    margin-right: 15px;
-}
-
-a.nav-link {
-    text-decoration: none;
-    position: relative;
-    color: #555;
-    justify-content: space-around;
-    font-weight: 500;
-    transition: .3s;
-}
-
-.section__container {
-  max-width: var(--max-width);
+nav {
+  position: fixed;
+  isolation: isolate;
+  top: 0;
+  width: 100%;
   margin: auto;
-  padding: 5rem 1rem;
+  z-index: 9;
 }
 
-.section__header {
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  font-weight: 700;
-  text-align: left;
+.nav__bar {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1F1D1F; 
 }
 
-.section__description {
-  max-width: 600px;
-  margin-inline: auto;
-  text-align: left;
-  line-height: 1.75rem;
+.nav__logo {
+  padding: 9px 12px;
+  font-size: 1.2rem;
+  background-color: #1F1D1F; 
 }
+
+.nav__logo img {
+  background-color: #1F1D1F;
+}
+
+.nav__bar a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav__menu__btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: #1F1D1F;
+}
+
+.ri-menu-3-line,
+.ri-close-line {
+  background-color: #1F1D1F;
+}
+
+.nav__links {
+  list-style: none;
+  position: absolute;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  transform: translateY(-100%);
+  transition: 0.5s;
+  z-index: -1;
+  background-color: #413841;
+}
+
+.nav__links.open {
+  transform: translateY(0);
+}
+
+.nav__links a {
+  color: #E0D8D8;
+  transition: 0.3s;
+}
+
+.nav__links a:hover {
+  color: #fff;
+}
+
+@media (width < 768px) {
+  .nav__links a {
+    background-color: #413841; 
+  }
+}
+
+
+@media (width > 768px) {
+  nav {
+    padding: 1rem 1rem;
+    position: static;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F1D1F;
+  }
+
+  .nav__bar {
+    padding: 0;
+    background-color: #1F1D1F;
+  }
+
+  .nav__menu__btn {
+    display: none;
+  }
+
+  .nav__links {
+    padding: 0;
+    width: unset;
+    position: static;
+    transform: none;
+    flex-direction: row;
+    background-image: none;
+    background-color: #1F1D1F;
+  }
+
+  .nav__links a {
+    background-color: #1F1D1F; 
+  }
+
+  .nav__links a:hover {
+    color: #fff;
+  }
+  
+}
+
+
+.about-container,
+.experience-container,
+.project-container {
+  padding: 6rem 2rem;
+  margin-bottom: -7rem;
+}
+
+.project-container {
+  padding: 6rem 2rem;
+  margin-bottom: -2rem;
+}
+
+/* .experience-container::before,
+.project-container::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 0.1px; 
+  background-color: #E0D8D8; 
+  margin: 0 auto 2rem;
+} */
+
+.contact-container {
+  padding: 2rem 2rem;
+}
+
+.extras {
+  padding: 1rem 2rem;
+}
+
+.about-container h2 {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.about-container .about-content,
+.experience-container .experience-content {
+    color: #555;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
 
 a {
   text-decoration: none;
@@ -59,43 +180,13 @@ body {
   color: #fff;
 }
 
-.header__container {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-}
-
-.header__content {
-    text-align: left;
-}
-
-.header__content h1 {
-    margin-bottom: 1rem;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.header__content h2 {
-    margin-bottom: 2rem;
-    text-align: left;
-}
-
-.header__content .section__description {
-    color: #555;
-    margin-bottom: 2rem;
-    text-align: left;
-}
-
-#projects {
-  text-align: left;
-  padding: 20px;
-}
-
-h2 {
+.experience-container h2,
+.project-container h2 {
+  font-size: 1.2rem;
   margin-bottom: 20px;
 }
 
-.container {
+.project-content {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -111,9 +202,13 @@ h2 {
   border-radius: 20px;
   cursor: pointer;
   transition: .4s;
-  background: #080822;;
-  color: #fff;
+  background: #1F1D1F;;
+  color: #E0D8D8;
   padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
@@ -123,28 +218,24 @@ h2 {
 .card h3 {
   padding-top: 10px;
   margin-bottom: 10px;
-  background: #080822;;
+  background: #1F1D1F;
 }
 
 .card p {
   margin: 0;
   padding-top: 20px;
-  background: #080822;;
+  background: #1F1D1F;
 }
 
-.contact__socials a i {
-  color: #fff;
+.contact-socials a i {
+  color: #E0D8D8;
 }
 
-.card .contact__socials {
-  background: #080822;;
+.card .contact-socials {
+  background: #1F1D1F;
 }
 
-.contact__container {
-  text-align: center;
-}
-
-.contact__socials {
+.contact-socials {
   margin-top: 2rem;
   display: flex;
   align-items: center;
@@ -153,27 +244,64 @@ h2 {
   flex-wrap: wrap;
 }
 
-.contact__socials a i {
-    color: #fff;
+.contact-socials a i {
+    color: #E0D8D8;
+}
+
+.contact-socials a i:hover {
+  color: #FFF;
 }
 
 .tools {
-  background: #080822;;
+  background: #1F1D1F;
   padding: 2px 5px;
   border-radius: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #E0D8D8;
 }
 
-@media (min-width: 768px) {
+.extras p {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #E0D8D8;
+}
+
+@media (min-width: 1200px) {
 
     .card {
-      width: 30%;
+      width: 48%;
     }
 
-
-
-    .header__container {
-        margin-left: 100px;
+    .about-container,
+    .experience-container,
+    .project-container {
+      margin-left: 100px;
+      align-items: center;
+      width: 75%
     }
 
+    .contact-container,
+    .extras {
+      margin-left: -100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .about-container,
+  .experience-container,
+  .project-container {
+    margin-left: 80px;
+    align-items: center;
+    width: 87%
+  }
+
+  .project-content {
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+    gap: 20px;
+  }
+
+  .card {
+    width: 48%;
+  }
 }
