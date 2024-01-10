@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: #272327;
+  background: #282B30;
 }
 
 nav {
@@ -21,17 +21,17 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1F1D1F; 
+  background-color: #1E2124; 
 }
 
 .nav__logo {
   padding: 9px 12px;
   font-size: 1.2rem;
-  background-color: #1F1D1F; 
+  background-color: #1E2124; 
 }
 
 .nav__logo img {
-  background-color: #1F1D1F;
+  background-color: #1E2124;
 }
 
 .nav__bar a {
@@ -43,12 +43,12 @@ nav {
 .nav__menu__btn {
   font-size: 1.5rem;
   cursor: pointer;
-  background-color: #1F1D1F;
+  background-color: #1E2124;
 }
 
 .ri-menu-3-line,
 .ri-close-line {
-  background-color: #1F1D1F;
+  background-color: #1E2124;
 }
 
 .nav__links {
@@ -63,7 +63,7 @@ nav {
   transform: translateY(-100%);
   transition: 0.5s;
   z-index: -1;
-  background-color: #413841;
+  background-color: #36393E;
 }
 
 .nav__links.open {
@@ -81,7 +81,7 @@ nav {
 
 @media (width < 768px) {
   .nav__links a {
-    background-color: #413841; 
+    background-color: #36393E; 
   }
 }
 
@@ -93,12 +93,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1F1D1F;
+    background-color: #1E2124;
   }
 
   .nav__bar {
     padding: 0;
-    background-color: #1F1D1F;
+    background-color: #1E2124;
   }
 
   .nav__menu__btn {
@@ -112,11 +112,11 @@ nav {
     transform: none;
     flex-direction: row;
     background-image: none;
-    background-color: #1F1D1F;
+    background-color: #1E2124;
   }
 
   .nav__links a {
-    background-color: #1F1D1F; 
+    background-color: #1E2124; 
   }
 
   .nav__links a:hover {
@@ -126,11 +126,14 @@ nav {
 }
 
 
-.about-container,
+.about-container {
+  padding: 8rem 2rem;
+  margin-bottom: -10rem; 
+}
 .experience-container,
 .project-container {
   padding: 6rem 2rem;
-  margin-bottom: -7rem;
+  margin-bottom: -9rem;
 }
 
 .project-container {
@@ -201,8 +204,7 @@ body {
   text-align: center;
   border-radius: 20px;
   cursor: pointer;
-  transition: .4s;
-  background: #1F1D1F;;
+  background: #36393E;;
   color: #E0D8D8;
   padding: 10px;
   height: 100%;
@@ -211,28 +213,29 @@ body {
   justify-content: space-between;
 }
 
-.card:hover {
-  transform: translate(0px, -8px);
-}
-
 .card h3 {
   padding-top: 10px;
   margin-bottom: 10px;
-  background: #1F1D1F;
+  background: #36393E;
 }
 
 .card p {
   margin: 0;
   padding-top: 20px;
-  background: #1F1D1F;
-}
-
-.contact-socials a i {
-  color: #E0D8D8;
+  background: #36393E;
 }
 
 .card .contact-socials {
-  background: #1F1D1F;
+  background: #36393E;
+}
+
+.card .contact-socials a  {
+  background: #36393E;
+}
+
+.card .contact-socials a i {
+  color: #E0D8D8;
+  background: #36393E;
 }
 
 .contact-socials {
@@ -253,7 +256,7 @@ body {
 }
 
 .tools {
-  background: #1F1D1F;
+  background: #36393E;
   padding: 2px 5px;
   border-radius: 10px;
   border: 2px solid #E0D8D8;
@@ -262,13 +265,18 @@ body {
 .extras p {
   text-align: center;
   font-size: 0.6rem;
-  color: #E0D8D8;
+  color: #fff;
 }
 
 @media (min-width: 1200px) {
 
     .card {
       width: 48%;
+    }
+
+    .about-container {
+      padding: 2rem 2rem;
+      margin-bottom: -5rem;
     }
 
     .about-container,
@@ -286,6 +294,11 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
+  .about-container {
+    padding: 2rem 2rem;
+    margin-bottom: -5rem;
+  }
+
   .about-container,
   .experience-container,
   .project-container {
