@@ -6,137 +6,118 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
         <link rel="stylesheet" href="style.css" />
-
-        <title>Joolaoye</title>
-
+        <title>joshua portfolio</title>
+        <link rel="icon" href="myLogo.png">
     </head>
 
     <body>
 
-        <div class="page-container">
-            <div class="navigation">
-                <div>
-                    <ul class="nav nav-underline">
-                        <li class="nav-item">
-                            <a class="nav-link" href="about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="experience">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects"> Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact"> Contact</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav>
+            <div class="nav__bar">
+              <span class="logo nav__logo"><img src="myLogo.png" width="30"></span>
+              <div class="nav__menu__btn" id="menu-btn">
+                <i class="ri-menu-3-line"></i>
+              </div>
             </div>
+            <ul class="nav__links" id="nav-links">
+              <li><a href="#about">about</a></li>
+              <li><a href="#experience">experience</a></li>
+              <li><a href="#projects">projects</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
 
-            <div class="section__container header__container" id="about">
-                <div class="header__content">
-                    <div>
-                    <h2>Hi, I'm Joshua.</h2>
-                    </div>
-                    <p class="section__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
+        <div class="about-container" id="about">
+            <div>
+                <h2>hi, i'm joshua</h2>
             </div>
-
-            <div class="section__container header__container" id="experience">
-                <div class="header__content">
-                    <div>
-                        <h2 style="font-size: 1rem;">Experience</h2>
-                    </div>
-                    <p class="section__description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </div>
-
-            <div class="projects-section" id="projects">
-
-                <h2>Projects</h2>
-
-                <div class="container">
-                    <div class="card">
-                        <h3> Language Trivia </h3>
-                        <p> A language trivia application that enables user learn French, German and Spanish.</p>
-                        <p> 
-                            <span class="tools">Kotlin</span> 
-                            <span class="tools">XML</span> 
-                            <span class="tools">Android Studio</span>
-                        </p>
-                        <div class="contact__socials">
-                            <a href="#"><i class="ri-github-fill"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h3> PyChess </h3>
-                        <p> A language trivia application that enables user learn French, German and Spanish.</p>
-                        <p> 
-                            <span class="tools">Python</span> 
-                            <span class="tools">Pygame</span> 
-                        </p>
-                        <div class="contact__socials">
-                            <a href="#"><i class="ri-github-fill"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h3> Brick Breaker </h3>
-                        <p> A language trivia application that enables user learn French, German and Spanish.</p>
-                        <p> 
-                            <span class="tools">Python</span> 
-                            <span class="tools">Pygame</span> 
-                        </p>
-                        <div class="contact__socials">
-                            <a href="#"><i class="ri-github-fill"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h3> PyCalculator </h3>
-                        <p> A language trivia application that enables user learn French, German and Spanish.</p>
-                        <p> 
-                            <span class="tools">Python</span> 
-                            <span class="tools">Tkinter</span> 
-                        </p>
-                        <div class="contact__socials">
-                            <a href="#"><i class="ri-github-fill"></i></a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <h3> Personal Website </h3>
-                        <p> My personal website </p>
-                        <p> 
-                            <span class="tools">HTML</span> 
-                            <span class="tools">CSS</span> 
-                            <span class="tools">Vanilla JS</span>
-                        </p>
-                        <div class="contact__socials">
-                            <a href="#"><i class="ri-github-fill"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <section class="section__container contact__container" id="contact">
-                <div class="contact__socials">
-                    <a href="#"><i class="ri-mail-line"></i></a>
-                    <a href="https://www.linkedin.com/in/joolaoye"><i class="ri-linkedin-fill"></i></a>
-                    <a href="https://github.com/joolaoye"><i class="ri-github-fill"></i></a>
-                </div>
-            </section>
+            <p class="about-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
         </div>
+
+        <div class="experience-container" id="experience">
+            <div>
+                <h2>experience</h2>
+            </div>
+            <p class="experience-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+            
+        <div class="project-container" id="projects">
+
+            <h2>projects</h2>
+
+            <div class="project-content">
+                <div class="card">
+                    <h3> Language Trivia </h3>
+                    <p> A language trivia application that enables user learn French, German and Spanish.</p>
+                    <p> 
+                        <span class="tools">Kotlin</span> 
+                        <span class="tools">XML</span> 
+                        <span class="tools">Android Studio</span>
+                    </p>
+                    <div class="contact-socials">
+                        <a href="https://github.com/joolaoye/LanguageTrivia"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3> PyChess </h3>
+                    <p> PyChess is a Python-based Chess Clone developed using the Pygame library. The project aims to recreate the classic game of chess in a modern and engaging way, offering players an immersive gaming experience</p>
+                    <p> 
+                        <span class="tools">Python</span> 
+                        <span class="tools">Pygame</span> 
+                    </p>
+                    <div class="contact-socials">
+                        <a href="https://github.com/joolaoye/PyCHESS"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3> Breakout Clone </h3>
+                    <p> A language trivia application that enables user learn French, German and Spanish.</p>
+                    <p> 
+                        <span class="tools">Python</span> 
+                        <span class="tools">Pygame</span> 
+                    </p>
+                    <div class="contact-socials">
+                        <a href="https://github.com/joolaoye/Breakout_Clone"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3> PyCalculator </h3>
+                    <p> A language trivia application that enables user learn French, German and Spanish.</p>
+                    <p> 
+                        <span class="tools">Python</span> 
+                        <span class="tools">Tkinter</span> 
+                    </p>
+                    <div class="contact-socials">
+                        <a href="https://github.com/joolaoye/PyCalculator"><i class="ri-github-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contact-container"  id="contact">
+            <div class="contact-socials">
+                <a href="mailto:joshuaolaoye46@gmail.com"><i class="ri-mail-line"></i></a>
+                <a href="https://www.linkedin.com/in/joolaoye"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/joolaoye"><i class="ri-github-fill"></i></a>
+            </div>
+        </div>
+
+        <footer class="extras">
+            <p> Built with HTML, CSS and Vanilla JS</p>
+        </footer>
+    
     
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="main.js"></script>

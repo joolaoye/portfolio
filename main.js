@@ -1,72 +1,62 @@
-const navLinks = document.querySelectorAll('.nav-link').
-forEach(link => {
-  link.addEventListener('click', function (e) {
-    e.preventDefault();
+const navLinks = document.getElementById("nav-links");
+const menuBtn = document.getElementById("menu-btn");
+const menuBtnIcon = menuBtn.querySelector("i");
 
-    const targetId = this.getAttribute('href')
-    console.log(targetId)
-    const targetSection = document.getElementById(targetId);
+menuBtn.addEventListener("click", (e) => {
+  navLinks.classList.toggle("open");
 
-    if (targetSection) {
-      targetSection.scrollIntoView({
-        behavior: 'smooth'
-      });
-    }
-  });
-})
+  const isOpen = navLinks.classList.contains("open");
+  menuBtnIcon.setAttribute(
+    "class",
+    isOpen ? "ri-close-line" : "ri-menu-3-line"
+  );
+});
 
-const faqs = document.querySelectorAll('.faq').
-forEach(faq => {
-  faq.addEventListener("click", () => {
-    faq.classList.toggle("active");
-  })
-})
+navLinks.addEventListener("click", (e) => {
+  navLinks.classList.remove("open");
+  menuBtnIcon.setAttribute("class", "ri-menu-3-line");
+});
 
 
 const scrollRevealOption = {
-  distance: "50px",
+  distance: "20px",
   origin: "bottom",
   duration: 1000,
 };
 
-// header container
-ScrollReveal().reveal(".header__content h1", {
+
+
+ScrollReveal().reveal(".about-container h2", {
   ...scrollRevealOption,
 });
 
-ScrollReveal().reveal(".header__content .section__description", {
+ScrollReveal().reveal(".about-container .about-content", {
   ...scrollRevealOption,
   delay: 500,
 });
 
-ScrollReveal().reveal(".header__content .header__btn", {
+
+ScrollReveal().reveal(".experience-container h2", {
   ...scrollRevealOption,
-  delay: 1000,
+});
+
+ScrollReveal().reveal(".experience-container .experience-content", {
+  ...scrollRevealOption,
+  delay: 500,
 });
 
 // about container
-ScrollReveal().reveal(".about__content .section__header", {
+ScrollReveal().reveal(".project-container h2", {
   ...scrollRevealOption,
 });
 
-ScrollReveal().reveal(".about__content .section__description", {
-  ...scrollRevealOption,
-  delay: 500,
-});
-
-ScrollReveal().reveal(".about__content .about__btn", {
-  ...scrollRevealOption,
-  delay: 1000,
-});
-
-// service container
-ScrollReveal().reveal(".service__card", {
+ScrollReveal().reveal(".card", {
   ...scrollRevealOption,
   interval: 500,
 });
 
-// portfolio container
-ScrollReveal().reveal(".portfolio__card", {
-  duration: 1000,
-  interval: 500,
+const maxCardHeight = Math.max(...Array.from(document.querySelectorAll('.card')).map(card => card.offsetHeight));
+
+document.querySelectorAll('.card').forEach(card => {
+  card.style.height = `${maxCardHeight}px`;
 });
