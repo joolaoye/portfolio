@@ -139,9 +139,9 @@ nav {
 .project-container {
   padding: 7rem 2rem;
   margin-bottom: -2rem;
-}
+} 
 
- .contributions-content::before {
+.contributions-content::before {
   content: '';
   display: block;
   width: 100%;

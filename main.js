@@ -58,5 +58,6 @@ ScrollReveal().reveal(".card", {
 const maxCardHeight = Math.max(...Array.from(document.querySelectorAll('.card')).map(card => card.offsetHeight));
 
 document.querySelectorAll('.card').forEach(card => {
+  console.log(card.offsetHeight)
   card.style.height = `${maxCardHeight}px`;
 });
