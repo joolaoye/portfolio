@@ -19,7 +19,7 @@ navLinks.addEventListener("click", (e) => {
 
 
 const scrollRevealOption = {
-  distance: "20px",
+  distance: "50px",
   origin: "bottom",
   duration: 1000,
 };
@@ -36,11 +36,11 @@ ScrollReveal().reveal(".about-container .about-content", {
 });
 
 
-ScrollReveal().reveal(".experience-container h2", {
+ScrollReveal().reveal(".contributions-container h2", {
   ...scrollRevealOption,
 });
 
-ScrollReveal().reveal(".experience-container .experience-content", {
+ScrollReveal().reveal(".contributions-container .contributions-content", {
   ...scrollRevealOption,
   delay: 500,
 });
