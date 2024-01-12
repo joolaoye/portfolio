@@ -139,7 +139,7 @@ const Home = () => {
             <h2>projects</h2>
 
             <p class="notes">
-                This section features some of my selected personal projects.
+                This section features selected personal projects.
             </p>
 
             <div class="project-content">
