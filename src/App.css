@@ -88,7 +88,7 @@ nav {
 
 @media (width > 768px) {
   nav {
-    padding: 0.1rem 1rem;
+    padding: 0rem;
     position: static;
     display: flex;
     align-items: center;
