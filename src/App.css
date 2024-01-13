@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: #282B30;
+  background: #040404;
 }
 
 nav {
@@ -21,17 +21,17 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #1E2124; 
+  background-color: #040404; 
 }
 
 .nav__logo {
   padding: 9px 12px;
   font-size: 1.2rem;
-  background-color: #1E2124; 
+  background-color: #040404; 
 }
 
 .nav__logo img {
-  background-color: #1E2124;
+  background-color: #040404;
 }
 
 .nav__bar a {
@@ -43,12 +43,12 @@ nav {
 .nav__menu__btn {
   font-size: 1.5rem;
   cursor: pointer;
-  background-color: #1E2124;
+  background-color: #040404;
 }
 
 .ri-menu-3-line,
 .ri-close-line {
-  background-color: #1E2124;
+  background-color: #040404;
 }
 
 .nav__links {
@@ -63,7 +63,7 @@ nav {
   transform: translateY(-100%);
   transition: 0.5s;
   z-index: -1;
-  background-color: #36393E;
+  background-color: #131416;
 }
 
 .nav__links.open {
@@ -81,7 +81,7 @@ nav {
 
 @media (width < 768px) {
   .nav__links a {
-    background-color: #36393E; 
+    background-color: #131416; 
   }
 }
 
@@ -93,12 +93,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1E2124;
+    background-color: #040404;
   }
 
   .nav__bar {
     padding: 0;
-    background-color: #1E2124;
+    background-color: #040404;
   }
 
   .nav__menu__btn {
@@ -112,11 +112,11 @@ nav {
     transform: none;
     flex-direction: row;
     background-image: none;
-    background-color: #1E2124;
+    background-color: #040404;
   }
 
   .nav__links a {
-    background-color: #1E2124; 
+    background-color: #040404; 
   }
 
   .nav__links a:hover {
@@ -238,7 +238,7 @@ body {
   text-align: center;
   border-radius: 20px;
   cursor: pointer;
-  background: #36393E;;
+  background: #131416;;
   color: #FFFFFF;
   padding: 10px;
   height: 450px;
@@ -250,26 +250,26 @@ body {
 .card h3 {
   padding-top: 10px;
   margin-bottom: 10px;
-  background: #36393E;
+  background: #131416;
 }
 
 .card p {
   margin: 0;
   padding-top: 20px;
-  background: #36393E;
+  background: #131416;
 }
 
 .card .contact-socials {
-  background: #36393E;
+  background: #131416;
 }
 
 .card .contact-socials a  {
-  background: #36393E;
+  background: #131416;
 }
 
 .card .contact-socials a i {
   color: #dbdcdc;
-  background: #36393E;
+  background: #131416;
 }
 
 .contact-socials {
@@ -290,7 +290,7 @@ body {
 }
 
 .tools {
-  background: #36393E;
+  background: #131416;
   padding: 2px 5px;
   margin-right: 5px;
   border-radius: 10px;
