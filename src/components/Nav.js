@@ -30,7 +30,7 @@ const Nav = () => {
     <nav>
       <div className="nav__bar">
         <span className="logo nav__logo">
-          <img src="./assets/myLogo.png" width="50" alt="Logo" />
+          <img src="assets/logo.png" width="50" alt="Logo" />
         </span>
         <div className="nav__menu__btn" id="menu-btn" onClick={handleMenuClick}>
           <i id="menu-btn-icon" className={isNavOpen ? "ri-close-line" : "ri-menu-3-line"}></i>

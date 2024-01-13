@@ -39,15 +39,6 @@ const Home = () => {
       interval: 500,
     });
 
-    const maxCardHeight = Math.max(
-      ...Array.from(document.querySelectorAll('.card')).map(
-        (card) => card.offsetHeight
-      )
-    );
-
-    document.querySelectorAll('.card').forEach((card) => {
-      card.style.height = `${maxCardHeight}px`;
-    });
   }, []); 
 
   return (
@@ -82,9 +73,9 @@ const Home = () => {
                     <p class="date">Participant, November 2023</p>
                 </div>
                 <p class="description">
-                Participated in a 48-hour hackathon focused on improving the student experience at St. Cloud State University. Our team developed a course scheduling assistant to optimize General Liberal Education choices, integrating a sophisticated web scraping tool and a tailored algorithm with custom formulas and data parsing logic. 
-                This enabled us to efficiently obtain and optimize course schedules, providing students with personalized reports for future semester planning. 
-                Addressing a common challenge for SCSU students, our project aimed to simplify the selection of financially sensible and appealing General Liberal Education courses by offering guidance on professors and educational benefits, bringing clarity and value to the course selection process.
+                    Participated in a 48-hour hackathon focused on improving the student experience at St. Cloud State University. Our team developed a course scheduling assistant to optimize General Liberal Education choices, integrating a sophisticated web scraping tool and a tailored algorithm with custom formulas and data parsing logic. 
+                    This enabled us to efficiently obtain and optimize course schedules, providing students with personalized reports for future semester planning. 
+                    Addressing a common challenge for SCSU students, our project aimed to simplify the selection of financially sensible and appealing General Liberal Education courses by offering guidance on professors and educational benefits, bringing clarity and value to the course selection process.
                 </p>
                 <ul class="project-list">
                     <li> Designed and implemented a data processing module bridging the web scraper for data retrieval and the front end for visualization </li>
