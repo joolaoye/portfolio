@@ -72,6 +72,7 @@ nav {
 
 .nav__links a {
   color: #dbdcdc;
+  padding: 1rem;
   transition: 0.3s;
 }
 

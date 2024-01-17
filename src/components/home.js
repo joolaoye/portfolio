@@ -64,7 +64,7 @@ const Home = () => {
             </div>
 
             <p class="notes">
-                Explore projects to which I've contributed, involving collaborative group work.
+                Explore projects to which I've contributed.
             </p>
 
             <div class="contributions-content">
@@ -73,9 +73,7 @@ const Home = () => {
                     <p class="date">Participant, November 2023</p>
                 </div>
                 <p class="description">
-                    Participated in a 48-hour hackathon focused on improving the student experience at St. Cloud State University. Our team developed a course scheduling assistant to optimize General Liberal Education choices, integrating a sophisticated web scraping tool and a tailored algorithm with custom formulas and data parsing logic. 
-                    This enabled us to efficiently obtain and optimize course schedules, providing students with personalized reports for future semester planning. 
-                    Addressing a common challenge for SCSU students, our project aimed to simplify the selection of financially sensible and appealing General Liberal Education courses by offering guidance on professors and educational benefits, bringing clarity and value to the course selection process.
+                Our team developed a course scheduling assistant to optimize General Liberal Education choices, integrating a sophisticated web scraping tool and a tailored algorithm with custom formulas and data parsing logic within 48 hours at a hackathon hosted by the Computer Science club at St. Cloud State University.
                 </p>
                 <ul class="project-list">
                     <li> Designed and implemented a data processing module bridging the web scraper for data retrieval and the front end for visualization </li>
@@ -163,36 +161,6 @@ const Home = () => {
                     </p>
                     <div class="contact-socials">
                         <a href="https://github.com/joolaoye/PyCHESS"><i class="ri-github-fill"></i></a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h3> Breakout Clone </h3>
-                    <p> 
-                        A Python-based Breakout Clone developed using the Pygame library, the project aims to recreate the retro Breakout game, offering players an immersive and nostalgic gaming experience.
-                    </p>
-                    <p> 
-                        <span class="tools">Python</span> 
-                        <span class="tools">Pygame</span> 
-                    </p>
-                    <div class="contact-socials">
-                        <a href="https://github.com/joolaoye/Breakout_Clone"><i class="ri-github-fill"></i></a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h3> PyCalculator </h3>
-                    <p> 
-                        A GUI calculator developed in Python using the tkinter library, inspired by the features of the Casio fx-991ES Plus model. 
-                        The calculator's graphical user interface is designed to mirror the Casio model, providing users with an interface that is both familiar and intuitive.  
-                        Advanced mathematical functions, including trigonometry, and logarithms, are incorporated into the calculator 
-                    </p>
-                    <p> 
-                        <span class="tools">Python</span> 
-                        <span class="tools">Tkinter</span> 
-                    </p>
-                    <div class="contact-socials">
-                        <a href="https://github.com/joolaoye/PyCalculator"><i class="ri-github-fill"></i></a>
                     </div>
                 </div>
             </div>
