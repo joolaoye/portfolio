@@ -169,9 +169,9 @@ const Home = () => {
 
         <div class="contact-container"  id="contact">
             <div class="contact-socials">
-                <a href="mailto:joshuaolaoye46@gmail.com"><i class="ri-mail-line"></i></a>
-                <a href="https://www.linkedin.com/in/joolaoye"><i class="ri-linkedin-fill"></i></a>
-                <a href="https://github.com/joolaoye"><i class="ri-github-fill"></i></a>
+                <a href="mailto:joshuaolaoye46@gmail.com"><span>email</span></a>
+                <a href="https://www.linkedin.com/in/joolaoye"><span>github</span></a>
+                <a href="https://github.com/joolaoye"><span>linkedin</span></a>
             </div>
         </div>
 

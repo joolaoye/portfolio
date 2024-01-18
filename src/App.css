@@ -290,6 +290,14 @@ body {
   color: #FFFFFF;
 }
 
+.contact-socials a span {
+  color: #dbdcdc;
+}
+
+.contact-socials a span:hover {
+color: #FFFFFF;
+}
+
 .tools {
   background: #131416;
   padding: 2px 5px;
