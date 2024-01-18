@@ -170,8 +170,8 @@ const Home = () => {
         <div class="contact-container"  id="contact">
             <div class="contact-socials">
                 <a href="mailto:joshuaolaoye46@gmail.com"><span>email</span></a>
-                <a href="https://www.linkedin.com/in/joolaoye"><span>github</span></a>
-                <a href="https://github.com/joolaoye"><span>linkedin</span></a>
+                <a href="https://www.linkedin.com/in/joolaoye"><span>linkedin</span></a>
+                <a href="https://github.com/joolaoye"><span>github</span></a>
             </div>
         </div>
 
