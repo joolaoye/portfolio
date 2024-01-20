@@ -1,7 +1,6 @@
-
-[![License](https://img.shields.io/badge/Website-Visit-green.svg)](https://joolaoye.github.io/portfolio)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![License](https://img.shields.io/badge/Open-Source-red.svg)]()
+<p align="center">
+<a href=https://joolaoye.github.io/portfolio"><img src="https://img.shields.io/badge/Website-Visit-green.svg"/></a> &nbsp; <a href="https://github.com/joolaoye/portfolio/edit/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a> &nbsp; <a href=""><img src="https://img.shields.io/badge/Open-Source-red.svg"/></a>
+</p>
 
 
 
@@ -44,16 +43,16 @@ If you would like to use this website as a template for your website:
 - Go to the `src` directory to make your changes.
 <br><br>
 
-<h3>
+<h3 align="center">
   Built With
 </h3>
 
-<p>
-  <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-  <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
-  <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-  <img align="left" alt="HTML" width="40px" height="30px" style="padding-right:10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9tMi01OwPqISbJ1Qbt1mhZ-fRx3Ty_F8uMtOvWkG0Aw&s" />
-  <img align="left" alt="HTML" width="40px" height="30px" style="padding-right:10px;" src="https://logowik.com/content/uploads/images/vercel1868.jpg" />
+<p align="center">
+  <img alt="HTML" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
+  <img alt="HTML" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" />
+  <img alt="HTML" width="40px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+  <img alt="HTML" width="50px" height="40px" style="padding-right:10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9tMi01OwPqISbJ1Qbt1mhZ-fRx3Ty_F8uMtOvWkG0Aw&s" />
+  <img alt="HTML" width="50px" height="40px" style="padding-right:10px;" src="https://logowik.com/content/uploads/images/vercel1868.jpg" />
 </p>
 <br><br>
 <br><br>
