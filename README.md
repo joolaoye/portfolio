@@ -1,5 +1,5 @@
 <p align="center">
-<a href=https://joolaoye.github.io/portfolio/"><img src="https://img.shields.io/badge/Website-Visit-green.svg"/></a> &nbsp; <a href="https://github.com/joolaoye/portfolio/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a> &nbsp; <a href=""><img src="https://img.shields.io/badge/Open-Source-red.svg"/></a>
+<a href="https://joolaoye.github.io/portfolio/"><img src="https://img.shields.io/badge/Website-Visit-green.svg"/></a> &nbsp; <a href="https://github.com/joolaoye/portfolio/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a> &nbsp; <a href=""><img src="https://img.shields.io/badge/Open-Source-red.svg"/></a>
 </p>
 
 
