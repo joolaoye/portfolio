@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://joolaoye.github.io/portfolio/"><img src="https://img.shields.io/badge/Website-Visit-green.svg"/></a> &nbsp; <a href="https://github.com/joolaoye/portfolio/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a> &nbsp; <a href=""><img src="https://img.shields.io/badge/Open Source-red.svg"/></a>
+<a href="https://www.joolaoye.com/"><img src="https://img.shields.io/badge/Website-Visit-green.svg"/></a> &nbsp; <a href="https://github.com/joolaoye/portfolio/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a> &nbsp; <a href=""><img src="https://img.shields.io/badge/Open Source-red.svg"/></a>
 </p>
 
 
@@ -13,11 +13,11 @@
 
 ## Demo
 <p align="center">
-  <a href="https://joolaoye.github.io/portfolio">
+  <a href="https://www.joolaoye.com/">
     <img src="https://i.imgur.com/odQxigb.gif" alt="Preview" width="60%"/>
   </a>
   <br/>
-  <a href="https://joolaoye.github.io/portfolio"><img src="https://arifszn.netlify.app/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>
+  <a href="https://www.joolaoye.com/"><img src="https://arifszn.netlify.app/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>
 </p>
 
 ## Dependencies
